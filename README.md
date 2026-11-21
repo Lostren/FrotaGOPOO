@@ -104,18 +104,10 @@ A herança é mapeada com uma tabela por hierarquia, o padrão do Entity Framewo
 - Inicialização do banco isolada em `App.TentarInicializarBanco()`.
 - Um tipo por arquivo e namespaces organizados por camada.
 
-## Fluxo de trabalho
-
-- A branch `main` guarda apenas código que compila e funciona.
-- Cada issue é desenvolvida em sua própria branch, como `feature/login`, e entra na `main` por pull request revisado por outro integrante.
-- Quem alterar um model gera uma nova migration na mesma branch, com um nome descritivo, como `Add-Migration AdicionaCampoX`.
-- Nunca altere o banco manualmente. Toda mudança deve vir de uma migration.
-
 ## Links
 
-- Planejamento (Linear): https://linear.app/atomicrat/team/POO/overview
 - Diagramas: [`docs/diagramas`](docs/diagramas)
-- Vídeo de apresentação: [link]
+- Vídeo de apresentação: [`video/video_link.txt`](video/video_link.txt)
 
 ## Equipe
 
